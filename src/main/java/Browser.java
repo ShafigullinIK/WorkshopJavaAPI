@@ -10,7 +10,7 @@ public class Browser {
     // Using a HashMap to keep count of the number of times each URL was visited
     private static Map<String, Integer> visitCounts = new HashMap<>();
 
-    // Visit a new URL
+    /// Visit a new URL
     public static void visit(String url) {
         // If we have moved back in history, remove all forward history before adding the new url
         if (currentPosition != history.size() - 1) {
