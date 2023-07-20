@@ -7,7 +7,7 @@ public class Browser {
     // This variable keeps track of the current position in the history
     private static int currentPosition = -1;
 
-    // Using a HashMap to keep count of the number of times each URL was visited
+    /// Using a HashMap to keep count of the number of times each URL was visited
     private static Map<String, Integer> visitCounts = new HashMap<>();
 
     /// Visit a new URL
