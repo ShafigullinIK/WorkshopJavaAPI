@@ -27,7 +27,7 @@ public class Browser {
     // Go back in history
     public static String back() {
         if (currentPosition > 0) {
-       //     currentPosition--;
+            currentPosition--;
         }
         // Return the new current URL
         return history.get(currentPosition);
